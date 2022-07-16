@@ -383,7 +383,6 @@ export const parseJSObjectWithAST = (
       }
     },
   });
-
   JSObjectProperties.forEach((node) => {
     let params = new Set<functionParams>();
     const propertyNode = node;
